@@ -8,8 +8,8 @@ const App = () => {
 
   const searchMovies = async () => {
     try {
-      const response = await axios.get(`http://192.168.1.32:3001/search?q=${query}`);
-      setResults(response.data); // Guardar resultados
+      const response = await axios.get(`http://192.168.18.122:3001/search?q=${query}`);
+      setResults(response.data);
     } catch (error) {
       console.error('Error al buscar películas:', error);
     }

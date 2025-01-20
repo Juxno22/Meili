@@ -25,5 +25,5 @@ app.get('/search', async (req, res) => {
 
 const port = 3001;
 app.listen(port, () => {
-  console.log(`Servidor Express corriendo en http://localhost:${port}`);
+  console.log(`Servidor Backend corriendo en http://localhost:${port}`);
 });
