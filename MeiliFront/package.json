@@ -1,0 +1,20 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "back": "file:",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "meilisearch": "^0.48.2",
+    "nodemon": "^3.1.9"
+  }
+}
